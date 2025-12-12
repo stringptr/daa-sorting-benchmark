@@ -3,7 +3,7 @@ import json
 import random
 from pathlib import Path
 
-BASE = Path(__file__).resolve().parent / "data"
+BASE = Path(__file__).resolve().parent.parent / "data"
 BASE.mkdir(exist_ok=True)
 
 
